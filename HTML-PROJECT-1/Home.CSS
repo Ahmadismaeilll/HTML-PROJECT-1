@@ -1,0 +1,100 @@
+*{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*navigation bar*/
+.navbar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: crimson; 
+    border-radius: 10px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.logo a:active , .logo a:hover{
+    color: white;
+    font-size: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white; 
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+li a:hover , a:active {
+    display: block;
+    color: rgb(245, 112, 112);
+}
+button{
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+
+}
+button a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+/*articles*/
+.AIArticle{
+    border-color: crimson;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#paragraph{
+    text-align: center;
+}
+#Header{
+    text-align: center;
+}
+.ArticleContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.AIArticle2 , .AIArticle3{
+    color: crimson;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+}
+.AIArticle2{
+    margin-right: 10px;
+}
+.AIArticle3{
+    margin-left: 10px;
+}
+#paragraph2 , #paragraph3 , #header2 , #header3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-align: center;
+}
+
+/*Fav Songs*/
+.audios{
+    margin-left: 20px;
+}
